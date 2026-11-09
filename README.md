@@ -19,4 +19,5 @@ pequenos e médios vendedores a múltiplos canais de venda.
 ## Estrutura do repositório
 
 - `dados/` — dataset utilizado no estudo (Brazilian E-Commerce Public Dataset by Olist)
+- `notebooks/` — notebook Jupyter da análise exploratória (Python), gráficos gerados e perfil estatístico das colunas
 - `entregas/` — PDFs entregues a cada etapa do projeto
