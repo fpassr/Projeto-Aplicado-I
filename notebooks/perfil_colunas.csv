@@ -1,0 +1,53 @@
+tabela,coluna,tipo,n_preenchidos,n_ausentes,pct_ausentes,n_distintos,valor_mais_frequente,freq_valor_mais_frequente,minimo,maximo,media,mediana,variancia,desvio_padrao,assimetria,n_outliers_iqr
+customers,customer_id,str,99441,0,0.0,99441,00012a2ce6f8dcda20d059ce984917,1.0,,,,,,,,
+customers,customer_unique_id,str,99441,0,0.0,96096,8d50f5eadf50201ccdcedfb9e2ac84,17.0,,,,,,,,
+customers,customer_zip_code_prefix,int64,99441,0,0.0,14994,22790,142.0,,,,,,,,
+customers,customer_city,str,99441,0,0.0,4119,sao paulo,15540.0,,,,,,,,
+customers,customer_state,str,99441,0,0.0,27,SP,41746.0,,,,,,,,
+geolocation,geolocation_zip_code_prefix,int64,1000163,0,0.0,19015,24220,1146.0,,,,,,,,
+geolocation,geolocation_lat,float64,1000163,0,0.0,717360,,,-36.6053744107061,45.06593318269697,-21.18,-22.91937749486411,32.67,5.72,1.57,168240.0
+geolocation,geolocation_lng,float64,1000163,0,0.0,717613,,,-101.46676644931476,121.10539381057764,-46.39,-46.63787866960149,18.23,4.27,-0.1,42348.0
+geolocation,geolocation_city,str,1000163,0,0.0,8011,sao paulo,135800.0,,,,,,,,
+geolocation,geolocation_state,str,1000163,0,0.0,27,SP,404268.0,,,,,,,,
+order_items,order_id,str,112650,0,0.0,98666,8272b63d03f5f79c56e9e4120aec44,21.0,,,,,,,,
+order_items,order_item_id,int64,112650,0,0.0,21,1,98666.0,,,,,,,,
+order_items,product_id,str,112650,0,0.0,32951,aca2eb7d00ea1a7b8ebd4e68314663,527.0,,,,,,,,
+order_items,seller_id,str,112650,0,0.0,3095,6560211a19b47992c3666cc44a7e94,2033.0,,,,,,,,
+order_items,shipping_limit_date,str,112650,0,0.0,93318,2017-07-21 18:25:23,21.0,,,,,,,,
+order_items,price,float64,112650,0,0.0,5968,,,0.85,6735.0,120.65,74.99,33721.42,183.63,7.92,8427.0
+order_items,freight_value,float64,112650,0,0.0,6999,,,0.0,409.68,19.99,16.26,249.84,15.81,5.64,12134.0
+order_payments,order_id,str,103886,0,0.0,99440,fa65dad1b0e818e3ccc5cb0e392313,29.0,,,,,,,,
+order_payments,payment_sequential,int64,103886,0,0.0,29,1,99360.0,,,,,,,,
+order_payments,payment_type,str,103886,0,0.0,5,credit_card,76795.0,,,,,,,,
+order_payments,payment_installments,int64,103886,0,0.0,24,,,0.0,24.0,2.85,1.0,7.22,2.69,1.66,6313.0
+order_payments,payment_value,float64,103886,0,0.0,29077,,,0.0,13664.08,154.1,100.0,47303.67,217.49,9.25,7981.0
+order_reviews,review_id,str,99224,0,0.0,98410,08528f70f579f0c830189efc523d21,3.0,,,,,,,,
+order_reviews,order_id,str,99224,0,0.0,98673,03c939fd7fd3b38f8485a0f95798f1,3.0,,,,,,,,
+order_reviews,review_score,int64,99224,0,0.0,5,,,1.0,5.0,4.09,5.0,1.82,1.35,-1.36,14575.0
+order_reviews,review_comment_title,str,11568,87656,88.34,4527,Recomendo,423.0,,,,,,,,
+order_reviews,review_comment_message,str,40977,58247,58.7,36159,Muito bom,230.0,,,,,,,,
+order_reviews,review_creation_date,str,99224,0,0.0,636,2017-12-19 00:00:00,463.0,,,,,,,,
+order_reviews,review_answer_timestamp,str,99224,0,0.0,98248,2017-06-15 23:21:05,4.0,,,,,,,,
+orders,order_id,str,99441,0,0.0,99441,00010242fe8c5a6d1ba2dd792cb162,1.0,,,,,,,,
+orders,customer_id,str,99441,0,0.0,99441,00012a2ce6f8dcda20d059ce984917,1.0,,,,,,,,
+orders,order_status,str,99441,0,0.0,8,delivered,96478.0,,,,,,,,
+orders,order_purchase_timestamp,str,99441,0,0.0,98875,2017-11-20 10:59:08,3.0,,,,,,,,
+orders,order_approved_at,str,99281,160,0.16,90733,2018-02-27 04:31:10,9.0,,,,,,,,
+orders,order_delivered_carrier_date,str,97658,1783,1.79,81018,2018-05-09 15:48:00,47.0,,,,,,,,
+orders,order_delivered_customer_date,str,96476,2965,2.98,95664,2016-10-27 17:32:07,3.0,,,,,,,,
+orders,order_estimated_delivery_date,str,99441,0,0.0,459,2017-12-20 00:00:00,522.0,,,,,,,,
+products,product_id,str,32951,0,0.0,32951,00066f42aeeb9f3007548bb9d3f33c,1.0,,,,,,,,
+products,product_category_name,str,32341,610,1.85,73,cama_mesa_banho,3029.0,,,,,,,,
+products,product_name_lenght,float64,32341,610,1.85,66,,,5.0,76.0,48.48,51.0,104.98,10.25,-0.9,290.0
+products,product_description_lenght,float64,32341,610,1.85,2960,,,4.0,3992.0,771.5,595.0,403371.35,635.12,1.96,2078.0
+products,product_photos_qty,float64,32341,610,1.85,19,,,1.0,20.0,2.19,1.0,3.02,1.74,2.19,849.0
+products,product_weight_g,float64,32949,2,0.01,2204,,,0.0,40425.0,2276.47,700.0,18335855.69,4282.04,3.6,4551.0
+products,product_length_cm,float64,32949,2,0.01,99,,,7.0,105.0,30.82,25.0,286.1,16.91,1.75,1380.0
+products,product_height_cm,float64,32949,2,0.01,102,,,2.0,105.0,16.94,13.0,185.98,13.64,2.14,1892.0
+products,product_width_cm,float64,32949,2,0.01,95,,,6.0,118.0,23.2,20.0,145.9,12.08,1.67,912.0
+sellers,seller_id,str,3095,0,0.0,3095,0015a82c2db000af6aaaf3ae2ecb05,1.0,,,,,,,,
+sellers,seller_zip_code_prefix,int64,3095,0,0.0,2246,14940,49.0,,,,,,,,
+sellers,seller_city,str,3095,0,0.0,611,sao paulo,694.0,,,,,,,,
+sellers,seller_state,str,3095,0,0.0,23,SP,1849.0,,,,,,,,
+category_translation,product_category_name,str,71,0,0.0,71,agro_industria_e_comercio,1.0,,,,,,,,
+category_translation,product_category_name_english,str,71,0,0.0,71,agro_industry_and_commerce,1.0,,,,,,,,

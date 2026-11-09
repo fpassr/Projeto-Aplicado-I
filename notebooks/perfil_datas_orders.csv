@@ -1,0 +1,8 @@
+coluna,tipo,n_preenchidos,n_ausentes,pct_ausentes,n_distintos,minimo,maximo,media,mediana,variancia,desvio_padrao,assimetria,n_outliers_iqr
+order_purchase_timestamp,datetime64[us],99441,0,0.0,98875,2016-09-04 21:15:19,2018-10-17 17:30:18,,,,,,
+order_approved_at,datetime64[us],99281,160,0.16,90733,2016-09-15 12:16:38,2018-09-03 17:40:06,,,,,,
+order_delivered_carrier_date,datetime64[us],97658,1783,1.79,81018,2016-10-08 10:34:01,2018-09-11 19:48:28,,,,,,
+order_delivered_customer_date,datetime64[us],96476,2965,2.98,95664,2016-10-11 13:46:32,2018-10-17 13:22:46,,,,,,
+order_estimated_delivery_date,datetime64[us],99441,0,0.0,459,2016-09-30 00:00:00,2018-11-12 00:00:00,,,,,,
+atraso_entrega_dias,float64,96476,2965,2.98,198,-147.0,188.0,-11.88,-12.0,103.71,10.18,2.01,4301.0
+tempo_entrega_dias,float64,96476,2965,2.98,146,0.0,209.0,12.09,10.0,91.24,9.55,3.83,5025.0
