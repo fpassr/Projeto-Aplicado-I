@@ -19,5 +19,14 @@ pequenos e médios vendedores a múltiplos canais de venda.
 ## Estrutura do repositório
 
 - `dados/` — dataset utilizado no estudo (Brazilian E-Commerce Public Dataset by Olist)
-- `notebooks/` — notebook Jupyter da análise exploratória (Python), gráficos gerados e perfil estatístico das colunas
+- `notebooks/` — notebook 01 (análise exploratória), notebook 02 (pipeline de indicadores de risco de atraso), gráficos e tabelas CSV geradas
 - `entregas/` — PDFs entregues a cada etapa do projeto
+- `apresentacao/` — slides da apresentação final
+
+## Vídeo da apresentação
+
+Gravação da apresentação final (cerca de 5 minutos): https://youtu.be/0OWz69xr_CQ
+
+## Como reproduzir
+
+Instale as bibliotecas pandas, matplotlib, seaborn e jupyter e execute, em ordem, os notebooks da pasta `notebooks/` (01 e depois 02).
